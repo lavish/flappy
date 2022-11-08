@@ -1,8 +1,9 @@
-FlappyFlag
-==========
-Flap flap flap alarm clock Obama
+Flappy Flag
+===========
+Flap flap flap alarm clock Obama.
 
-Simple, standalone & hackable exploit execution toolkit.
+Simple, standalone & hackable exploit execution toolkit. Useful when everything else fails or if you
+need a local exploit runner to chain with other components as part of a larger attack infrastructure.
 
 
 Install
@@ -42,9 +43,7 @@ History & Credits
 -----------------
 Flappy was initially developed by Marco Squarcina back in 2014 for the 
 [c00kies@venice](https://ctftime.org/team/1752/) team, with support and further contributions from
-Marco Gasparini, Claudio Bozzato, and Lorenzo Veronese. The tool served as the attack toolkit for 
+Marco Gasparini, Claudio Bozzato, and Lorenzo Veronese. The tool served as the exploit runner for
 [mhackeroni](https://ctftime.org/team/57788/) and it is now maintained as the *local attacker
-component* in the [WE_0WN_Y0U](https://ctftime.org/team/1964/) infrastructure.
-
-This is a stripped-down version of the main tool that can be used when everything else fails or be 
-chained with other components as part of a larger attack infrastructure.
+component* in the [WE_0WN_Y0U](https://ctftime.org/team/1964/) infrastructure. This is a 
+stripped-down version of the main tool, including only the local executor for improved hackability.
